@@ -5,7 +5,7 @@ import {
   Mail,
   Youtube,
 } from "lucide-react";
-import logo from "../assets/logo/logo.png";
+import logo from "../assets/logo/udyogi_logo.png";
 
 const Footer = () => {
   return (
@@ -20,8 +20,8 @@ const Footer = () => {
           <p className="text-sm text-gray-400">
             Mail: <br />
             <a
-              href="mailto:info@udyogibharat.com"  className="hover:text-white"
-            >info@udyogibharat.com</a>
+              href="mailto:udyogibharat@1vp.in"  className="hover:text-white"
+            >udyogibharat@1vp.in</a>
           </p>
           <p className="text-sm text-gray-400">
             Contact us: <br />
@@ -44,13 +44,13 @@ const Footer = () => {
           </p>
           <div className="flex gap-4 mt-2">
             <a
-              href="mailto:info@industriestimes.com"
+              href="mailto:udyogibharat@1vp.in"
               className="hover:text-indigo-400"
               aria-label="Email"
             >
               <Mail size={28} />
             </a>
-            <a
+            {/* <a
               href="https://www.instagram.com/industries_times_official?igsh=c2hyeHhjZW1ncXUz"
               target="_blank"
               rel="noopener noreferrer"
@@ -58,9 +58,9 @@ const Footer = () => {
               aria-label="Instagram"
             >
               <Instagram size={28} />
-            </a>
+            </a> */}
             <a
-              href="https://www.linkedin.com/company/industries-times/"
+              href="https://www.linkedin.com/company/udyogibharat/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-indigo-400"
@@ -68,7 +68,7 @@ const Footer = () => {
             >
               <Linkedin size={28} />
             </a>
-            <a
+            {/* <a
               href="https://facebook.com"
               target="_blank"
               rel="noopener noreferrer"
@@ -76,7 +76,7 @@ const Footer = () => {
               aria-label="Facebook"
             >
               <Facebook size={28} />
-            </a>
+            </a> */}
             <a
               href="https://www.youtube.com/@IndustriesTimes"
               target="_blank"
