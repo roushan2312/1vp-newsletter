@@ -30,7 +30,7 @@ const Navbar = () => {
   return (
     <header className="w-full bg-white relative z-50 font-times">
       {/* Site Title */}
-      <div className="flex justify-center py-4 sm:py-6">
+      {/* <div className="flex justify-center py-4 sm:py-6">
         <Link to="/" className="text-center w-full flex justify-center">
           <div className="border-2 border-blue-900 overflow-hidden w-fit max-w-full">
             <div className="flex flex-nowrap">
@@ -47,7 +47,7 @@ const Navbar = () => {
             </div>
           </div>
         </Link>
-      </div>
+      </div> */}
       <img
         src={banner}
         alt="Udyogi Bharat Banner"
