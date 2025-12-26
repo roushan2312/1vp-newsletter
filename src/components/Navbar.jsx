@@ -35,12 +35,12 @@ const Navbar = () => {
             <div className="flex flex-nowrap">
               <div className="bg-blue-900 px-3 sm:px-6 py-2 sm:py-4">
                 <h1 className="text-white text-2xl sm:text-6xl lg:text-7xl font-bold uppercase whitespace-nowrap">
-                  Industries
+                  Udyogi
                 </h1>
               </div>
               <div className="bg-white px-3 sm:px-6 py-2 sm:py-4">
                 <h1 className="text-blue-900 text-2xl sm:text-6xl lg:text-7xl font-bold uppercase whitespace-nowrap">
-                  Times
+                  Bharat
                 </h1>
               </div>
             </div>

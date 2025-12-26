@@ -9,19 +9,19 @@ import logo from "../assets/logo/logo.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-500 text-white py-16 px-4 sm:px-8 mt-10 mb-auto w-full">
+    <footer className="bg-gray-600 text-white py-16 px-4 sm:px-8 mt-10 mb-auto w-full">
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-10 text-center sm:text-left">
         {/* Left Section - About */}
         <div className="space-y-4">
           <h3 className="text-xl font-bold">About Us</h3>
           <p className="text-sm text-gray-400 leading-relaxed">
-            Industries Times is your go-to destination for stories that shape India's industrial future. We simplify marketing and elevate voices across the ecosystem.
+            Udyogi Bharat is your go-to destination for stories that shape India's industrial future. We simplify marketing and elevate voices across the ecosystem.
           </p>
           <p className="text-sm text-gray-400">
             Mail: <br />
             <a
-              href="mailto:info@industriestimes.com"  className="hover:text-white"
-            >info@industriestimes.com</a>
+              href="mailto:info@udyogibharat.com"  className="hover:text-white"
+            >info@udyogibharat.com</a>
           </p>
           <p className="text-sm text-gray-400">
             Contact us: <br />
@@ -35,10 +35,10 @@ const Footer = () => {
         <div className="flex flex-col items-center gap-4">
           <img
             src={logo}
-            alt="Industries Times Logo"
+            alt="Udyogi Bharat Logo"
             className="w-70 h-70 object-contain"
           />
-          <h2 className="text-2xl font-bold">Industries Times</h2>
+          <h2 className="text-2xl font-bold">Udyogi Bharat</h2>
           <p className="text-sm text-gray-400">
             Marketing made simple & effective.
           </p>
