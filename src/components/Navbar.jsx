@@ -47,6 +47,11 @@ const Navbar = () => {
           </div>
         </Link>
       </div>
+      <img
+        src="https://1vp.in/assets/udyogi_bharat_banner.png"
+        alt="Udyogi Bharat Banner"
+        className="w-full h-auto object-cover"
+      />
 
       {/* Mobile Toggle */}
       <div className="bg-blue-900 py-2 md:hidden w-full">
