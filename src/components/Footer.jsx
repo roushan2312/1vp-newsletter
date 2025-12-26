@@ -5,7 +5,7 @@ import {
   Mail,
   Youtube,
 } from "lucide-react";
-import logo from "../assets/logo/udyogi_logo.png";
+import logo from "../assets/logo/logo.png";
 
 const Footer = () => {
   return (
@@ -36,7 +36,7 @@ const Footer = () => {
           <img
             src={logo}
             alt="Udyogi Bharat Logo"
-            className="w-70 h-70 object-contain"
+            className="w-90 h-90 object-contain"
           />
           <h2 className="text-2xl font-bold">Udyogi Bharat</h2>
           <p className="text-sm text-gray-400">
