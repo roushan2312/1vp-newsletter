@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
+import banner from "../assets/logo/udyogi_bharat_banner.png";
 
 const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -48,7 +49,7 @@ const Navbar = () => {
         </Link>
       </div>
       <img
-        src="https://1vp.in/assets/udyogi_bharat_banner.png"
+        src={banner}
         alt="Udyogi Bharat Banner"
         className="w-full h-auto object-cover"
       />
