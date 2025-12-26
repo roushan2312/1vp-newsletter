@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
-import banner from "../assets/logo/udyogibharat_cover.png";
+import banner from "../assets/logo/udyogibharat_cover.jpg";
 
 const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
